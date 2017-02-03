@@ -262,7 +262,7 @@ client.once('close', function() {
 	console.log('client, closed');
 });
 
-clien.send('Hello World');
+client.send('Hello World');
 ```
 	
 ### UDP Server
